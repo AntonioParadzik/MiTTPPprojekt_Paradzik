@@ -1,0 +1,10 @@
+Test\TestMobile.class
+Pages\CustomPlaylistPage.class
+Pages\MyPlaylistsPage.class
+Pages\RegisterPage.class
+Pages\SongPage.class
+Pages\LoginPage.class
+Pages\PlaylistPage.class
+Pages\HomePage.class
+Pages\AddPlaylistPage.class
+Pages\AddSongsPage.class

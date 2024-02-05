@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-05T13:14:31 CET" name="AllTestsSuite" finished-at="2024-02-05T13:15:36 CET" duration-ms="65234">
+    <groups>
+    </groups>
+    <test started-at="2024-02-05T13:14:31 CET" name="My Appium TestNG Test" finished-at="2024-02-05T13:15:36 CET" duration-ms="65234">
+      <class name="Test.TestMobile">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:14:31 CET" name="setUp" finished-at="2024-02-05T13:14:45 CET" duration-ms="14496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser()[pri:1, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:14:45 CET" name="registerUser" finished-at="2024-02-05T13:14:59 CET" duration-ms="13937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="loginUser()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:14:59 CET" name="loginUser" finished-at="2024-02-05T13:15:08 CET" depends-on-methods="Test.TestMobile.registerUser" duration-ms="8884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="playSongFromPlaylist()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:15:08 CET" name="playSongFromPlaylist" finished-at="2024-02-05T13:15:24 CET" depends-on-methods="Test.TestMobile.loginUser" duration-ms="15834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playSongFromPlaylist -->
+        <test-method signature="createCustomPlaylist()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:15:24 CET" name="createCustomPlaylist" finished-at="2024-02-05T13:15:30 CET" depends-on-methods="Test.TestMobile.playSongFromPlaylist" duration-ms="6525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomPlaylist -->
+        <test-method signature="addSongToCustomPlaylist()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:15:30 CET" name="addSongToCustomPlaylist" finished-at="2024-02-05T13:15:35 CET" depends-on-methods="Test.TestMobile.createCustomPlaylist" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSongToCustomPlaylist -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.TestMobile@43dac38f]" started-at="2024-02-05T13:15:35 CET" name="teardown" finished-at="2024-02-05T13:15:36 CET" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.TestMobile -->
+    </test> <!-- My Appium TestNG Test -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>
