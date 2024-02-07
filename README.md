@@ -3,12 +3,12 @@
 <ul>
   <li>Opis projekta</li>
   <li>Korišteni alati</li>
-  <li>Upute o načinu korištenja alata</li>
+  <li>Upute o načinu korištenja</li>
 </ul>
 
 ## 1. Opis projekta
 <p>Projekt testiranja mobilne aplikacije "TunesForYou" temelji se na automatizaciji testiranja funkcionalnosti aplikacije korištenjem alata Android Studio, Appium i IntelliJ IDEA.</p>
-<p>"TunesForYou" je aplikacija za reproduciranje playlisti po raspoloženjima i žanrovima. Korisnik ima mogućnost prijave i pravljenja vlastitih playlisti.</p>
+<p>"TunesForYou" je aplikacija za reproduciranje playlisti sastavljenim po raspoloženjima i žanrovima. Korisnik ima mogućnost prijave i pravljenja vlastitih playlisti.</p>
 <p>U projektu se testira 5 funkcionalnosti aplikacije</p>
 <ul>
   <li>Registracija novog korisnika</li>
@@ -49,7 +49,7 @@
 ## 2. Korišteni alati
 ### Intellij IDEA
 <p>
-IntelliJ IDEA je moćan integrirani razvojni okvir koji pruža napredne alate i funkcije za razvoj softvera, olakšavajući programerima da učinkovito pišu, testiraju i održavaju svoje aplikacije. Unutar Intellij IDEA implemntirani su testovi pomoću Java programskog jezika.</p>
+IntelliJ IDEA je moćan integrirani razvojni okvir koji pruža napredne alate i funkcije za razvoj softvera, olakšavajući programerima da učinkovito pišu, testiraju i održavaju svoje aplikacije. Unutar Intellij IDEA implementirani su testovi korištenjem Java programskog jezika.</p>
 
 ### Appium
 <p>Appium je slobodno distribuirani okvir za testiranje korisničkog sučelja otvorenog koda za
@@ -59,7 +59,15 @@ automatizacije na fizičkim uređajima, kao i emulator ili simulator. Pomoću Ap
 ### Android Studio
 <p>Android Studio je integrirano razvojno okruženje (IDE) koje je specijalizirano za razvoj Android aplikacija, pružajući programerima sve potrebne alate i resurse kako bi kreirali inovativne i pouzdane mobilne aplikacije za Android platformu.</p>
 
-## 3. Upute o načinu korištenja alata
+### Ovisnosti
+<ul>
+  <li>appium 7.3.0</li>
+  <li>testng 7.0.0</li>
+  <li>maven-compiler-plugin 3.8.1</li>
+  <li>maven-surefire-report-plugin 2.22.1</li>
+</ul>
+
+## 3. Upute o načinu korištenja
 <p>Koraci za postavljanje razvojnog okruženja</p>
 <ul>
   <li>Pokrenuti Daemon pozadinski proces</li>
