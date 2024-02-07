@@ -83,6 +83,6 @@ automatizacije na fizičkim uređajima, kao i emulator ili simulator. Pomoću Ap
   <li>Pomoću Mavena instalirati potrebne ovisnosti
 </li>
   <li>Pokrenuti testove unutar komandne linije putem naredbe <b>mvn test</b> (Ctrl + Enter)</li>
-  <li>Tijekom izvršavanja testove, generiraju se Surefire izvješća o izvršenim testovima na lokaciji ../Testing_TunesForYou/target/surefire-reports/index.html
+  <li>Tijekom izvršavanja testova, generiraju se Surefire izvješća o izvršenim testovima na lokaciji ../Testing_TunesForYou/target/surefire-reports/index.html
 </li>
 </ul>
